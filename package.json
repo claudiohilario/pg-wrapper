@@ -1,0 +1,26 @@
+{
+  "name": "pg-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiohilario/pg-wrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiohilario/pg-wrapper/issues"
+  },
+  "homepage": "https://github.com/claudiohilario/pg-wrapper#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "pg": "^7.4.3",
+    "sinon": "^6.0.0"
+  }
+}
