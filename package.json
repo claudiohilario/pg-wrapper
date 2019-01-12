@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/**/*.test.js"
+    "test": "nyc ./node_modules/.bin/mocha tests/**/*.test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,11 @@
   "homepage": "https://github.com/claudiohilario/pg-wrapper#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
-    "pg": "^7.4.3",
+    "nyc": "^13.1.0",
+    "pg": "^7.8.0",
+    "rewire": "^4.0.1",
     "sinon": "^6.0.0"
   }
 }
