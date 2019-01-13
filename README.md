@@ -6,8 +6,8 @@
 ```js 
   const config = {
     user: 'postgres',
-    password: 'vvnotes2019',
-    database: 'vvnotes',
+    password: 'postgres',
+    database: 'postgres',
     host: 'localhost',
     port: 5432,
   }
