@@ -1,6 +1,6 @@
 {
-  "name": "pg-wrapper",
-  "version": "0.0.1",
+  "name": "pg-wrapper-ontech",
+  "version": "0.0.2",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
@@ -11,9 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/claudiohilario/pg-wrapper.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "pg",
+    "postgres",
+    "wrapper"
+  ],
+  "author": "Claudio Hilário",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/claudiohilario/pg-wrapper/issues"
   },
