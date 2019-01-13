@@ -33,7 +33,7 @@
   try {
     await poolDb.query(query, queryParams, transactionClient);
     await poolDb.query(query1, queryParams1, transactionClient);
-    await poolDb.query(query1, queryParams1, transactionClient);
+    await poolDb.query(query2, queryParams2, transactionClient);
     poolDb.endTransaction(undefined, transactionClient);
   } catch(err) {
     poolDb.endTransaction(err, transactionClient);
